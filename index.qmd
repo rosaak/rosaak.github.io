@@ -38,11 +38,11 @@ I previously worked as a bioinformatics scientist [at Dr. Mukesh Jain's lab](htt
 ---
 
 On this site I keep a list of
-- [my publications](papers)
-- [my CV](cv.pdf)
-- [my Resume](resume_2025.pdf)
-- [blog](blog.html)
-- [quotes](quotes.html)
+- [Publications](papers)
+- [CV](cv.pdf)
+- [Resume](resume_2025.pdf)
+- [Blog](blog.html)
+- [Some Quotes that resonate](quotes)
 
 
 ## A Few Projects
