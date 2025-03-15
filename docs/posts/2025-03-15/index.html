@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="RP">
+<meta name="dcterms.date" content="2025-03-15">
+<meta name="description" content="VIM tips.">
 
-<title>Omics Tensor – Roshan Padmanabhan</title>
+<title>Relearning vim selection keybindings – Roshan Padmanabhan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7ad6542725e80d1433b1f8ee26c2a1fc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-2b84e4fbfa671c9660408848f857b8ac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-7ad6542725e80d1433b1f8ee26c2a1fc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-2b84e4fbfa671c9660408848f857b8ac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,83 +71,27 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Roshan Padmanabhan" href="blog.xml" data-external="1"><meta property="og:title" content="Omics Tensor – Roshan Padmanabhan">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Relearning vim selection keybindings – Roshan Padmanabhan">
+<meta property="og:description" content="VIM tips.">
 <meta property="og:site_name" content="Roshan Padmanabhan">
 <meta property="og:locale" content="en_US">
-<meta name="twitter:title" content="Omics Tensor – Roshan Padmanabhan">
+<meta name="twitter:title" content="Relearning vim selection keybindings – Roshan Padmanabhan">
+<meta name="twitter:description" content="VIM tips.">
 <meta name="twitter:creator" content="@roshan_818">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Roshan Padmanabhan</span>
     </a>
   </div>
@@ -157,19 +102,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog - Omics Tensor</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./papers"> 
+    <a class="nav-link" href="../../papers"> 
 <span class="menu-text">Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./quotes"> 
+    <a class="nav-link" href="../../quotes"> 
 <span class="menu-text">Quotes</span></a>
   </li>  
 </ul>
@@ -181,87 +126,107 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Relearning vim selection keybindings</h1>
+                  <div>
+        <div class="description">
+          <p>VIM tips.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">vim</div>
+                <div class="quarto-category">markdown</div>
+                <div class="quarto-category">obsidian</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>RP </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">March 15, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFya2Rvd24=">markdown <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b2JzaWRpYW4=">obsidian <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmlt">vim <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content page-columns page-full column-body" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Omics Tensor</h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-body">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="column-page">
-<hr>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="dmltJTJDbWFya2Rvd24lMkNvYnNpZGlhbg==" data-listing-date-sort="1742011200000" data-listing-file-modified-sort="1742055599363" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
-<div class="thumbnail">
-<p><a href="./posts/2025-03-15/index.html" class="no-external"></a></p><a href="./posts/2025-03-15/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2025-03-15/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2025-03-15/index.html" class="no-external">Relearning vim selection keybindings</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2025-03-15/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('dmlt'); return false;">
-vim
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('bWFya2Rvd24='); return false;">
-markdown
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('b2JzaWRpYW4='); return false;">
-obsidian
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2025-03-15/index.html" class="no-external">VIM tips. </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2025-03-15/index.html" class="no-external">
-<div class="listing-date">
-Mar 15, 2025
-</div>
-<div class="listing-author">
-RP
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+<p>General pattern is <code>v</code>, <code>i</code> for inner, <code>a</code> for around or including white space, <code>w</code> for word, <code>s</code> for sentence, and p` for paragraph.</p>
+<section id="select-a-word" class="level2">
+<h2 class="anchored" data-anchor-id="select-a-word">Select a Word</h2>
+<ul>
+<li><code>viw</code> : select inner word (cursor anywhere in word)</li>
+<li><code>vaw</code> : select a word (includes trailing whitespace)</li>
+<li><code>*</code> then <code>gn</code> : search for current word, then select it</li>
+<li>after selecting a word with <code>viw</code>
+<ul>
+<li>use <code>Shift-U</code> for upper case</li>
+</ul></li>
+</ul>
+</section>
+<section id="select-a-sentence" class="level2">
+<h2 class="anchored" data-anchor-id="select-a-sentence">Select a Sentence</h2>
+<ul>
+<li><code>vis</code> : select inner sentence</li>
+<li><code>vas</code> : select around sentence (includes trailing whitespace)</li>
+</ul>
+</section>
+<section id="select-a-paragraph" class="level2">
+<h2 class="anchored" data-anchor-id="select-a-paragraph">Select a Paragraph</h2>
+<ul>
+<li><code>vip</code>: select inner paragraph</li>
+<li><code>vap</code>: select around paragraph (includes trailing whitespace)</li>
+</ul>
+</section>
+<section id="select-multiple-paragraphs" class="level2">
+<h2 class="anchored" data-anchor-id="select-multiple-paragraphs">Select Multiple Paragraphs</h2>
+<ul>
+<li><code>vip</code> then <code>}</code> : select paragraph, then expand to next paragraph. keep repeating to select more or use ‘{’ for de-selecting.</li>
+<li>Tip💁 Visual mode (v) then move with j or k to extend selection</li>
+</ul>
+</section>
+<section id="select-contents-within-bracesbracketsquotes-etc" class="level2">
+<h2 class="anchored" data-anchor-id="select-contents-within-bracesbracketsquotes-etc">Select Contents Within Braces/Brackets/Quotes etc</h2>
+<ul>
+<li><p><code>vi{</code> : select inner curly braces (text between { and })</p></li>
+<li><p><code>va{</code> : select around curly braces (includes the braces)</p></li>
+<li><p><code>vi[</code> : select inner square brackets</p></li>
+<li><p><code>vi(</code> : select inner parentheses</p></li>
+<li><p><code>vi"</code> : select inner double quotes</p></li>
+<li><p><code>vi'</code> : select inner single quotes</p></li>
+<li><p><code>vi&lt;</code> : select inner angle brackets</p></li>
+<li><p><code>vi&lt;</code> : select inner ‘=’, I used for Obsidian highlights</p></li>
+<li><p>Tip💁 : Replace v with c in any command to change (delete and enter insert mode) instead of just selecting.</p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
