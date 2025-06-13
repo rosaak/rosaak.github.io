@@ -1,0 +1,60 @@
+---
+title: "Roshan Padmanabhan"
+image: avatar.jpg
+about:
+  template: trestles
+  links:
+    - text: Email
+      url: "mailto:rosaak@gmail.com"
+    - text: LinkedIn
+      icon: linkedIn
+      url: "https://linkedin.com/in/rxp79"
+    - text: Twitter
+      icon: twitter
+      url: "https://x.com/roshan_818"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/rosaak"
+    - text: Google Scholar
+      url: "https://scholar.google.com/citations?user=LBXc5h0AAAAJ&hl"
+    - text: Blog - OmicsTensor
+      url: "blog.html"
+    - text: CV
+      url: "cv.pdf"
+    - text: Resume
+      url: "resume_2025.pdf"
+comments: false
+---
+::: {.column-page}
+
+## Bio
+
+I’m a senior scientist, working at [Trailhead Biosystems Inc.](https://trailbio.com) In my current role as the director of informatics, I sphearhead THB's the bioinformatics wing where we work on implementing cutting edge transcriptomics technologies, quality control of our products, next generation sequencing pipelines and workflows. 
+
+I am passionate about AI and ML and its applications and use in biology and medicine.
+
+I previously worked as a bioinformatics scientist [at Dr. Mukesh Jain's lab](https://biomedical.brown.edu/people/mukesh-k-jain-md), bioinformatics postdoc fellow [at Dr. Charis Eng's lab](https://www.lerner.ccf.org/genomic-medicine/eng/#lab-investigator), bioinformatics engineer [at Remy Burcelin's lab](https://www.i2mc.inserm.fr/personne/remy-burcelin/).
+
+---
+
+On this site I keep a list of
+- [Publications](papers)
+- [CV](cv.pdf)
+- [Resume](resume_2025.pdf)
+- [Blog](blog.html)
+- [Some Quotes that resonate](quotes)
+
+
+## A Few Projects
+
+- Comprehensive germline genomic profiles of children, adolescents and young adults with solid tumors [link](https://github.com/rosaak/germline_caya_solidtumor_analysis)
+- Sankey Plots Visualization showing drug–target network analysis in children, adolescents, and young adults (C-AYA) with solid tumors. [link](https://github.com/rosaak/CAYA_Sankey_Daigrams)
+- MAGI: A pipeline for whole genome comparison. [link](https://github.com/rosaak/magi/wiki)
+- ARG-ANNOT (Antibiotic Resistance Gene-ANNOTation)[link](https://www.mediterranee-infection.com/acces-ressources/base-de-donnees/arg-annot-2/)
+
+
+:::
+
+---
+
+<link rel="me" href="https://pages.github.com/rosaak/omics-tensor">

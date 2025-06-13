@@ -1,0 +1,51 @@
+---
+title: "Relearning vim selection keybindings"
+description: |
+  VIM tips.
+categories:
+  - vim
+  - markdown
+  - obsidian
+author:
+  - name: RP
+date: 2025-03-15
+updated: 2025-03-15
+---
+
+General pattern is `v`, `i` for inner, `a` for around or including white space, `w` for word, `s` for sentence, and p` for paragraph. 
+
+## Select a Word
+
+- `viw` : select inner word (cursor anywhere in word)
+- `vaw` : select a word (includes trailing whitespace)
+- `*` then `gn` : search for current word, then select it
+- after selecting a word with `viw` 
+  - use `Shift-U` for upper case
+
+## Select a Sentence
+
+- `vis` : select inner sentence
+- `vas` : select around sentence (includes trailing whitespace)
+
+## Select a Paragraph
+
+- `vip`: select inner paragraph
+- `vap`: select around paragraph (includes trailing whitespace)
+
+## Select Multiple Paragraphs
+
+- `vip` then `}` : select paragraph, then expand to next paragraph. keep repeating to select more or use '{' for de-selecting.
+- Tip💁 Visual mode (v) then move with j or k to extend selection
+
+## Select Contents Within Braces/Brackets/Quotes etc
+
+- `vi{` : select inner curly braces (text between { and })
+- `va{` : select around curly braces (includes the braces)
+- `vi[` : select inner square brackets
+- `vi(` : select inner parentheses
+- `vi"` : select inner double quotes
+- `vi'` : select inner single quotes
+- `vi<` : select inner angle brackets
+- `vi<` : select inner '=', I used for Obsidian highlights 
+
+- Tip💁 : Replace v with c in any command to change (delete and enter insert mode) instead of just selecting.

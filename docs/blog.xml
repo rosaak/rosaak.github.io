@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Roshan Padmanabhan</title>
+<link>rosaak.github.io/blog.html</link>
+<atom:link href="rosaak.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Personal Blog</description>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Thu, 12 Jun 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>My Google Feed Sent Me to the Edge of the Solar System (and Blew My Mind!)</title>
+  <dc:creator>RP </dc:creator>
+  <link>rosaak.github.io/posts/2025-06-12/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Scrolling through my Google feed today, a headline caught my eye: <a href="https://www.iflscience.com/nasas-voyager-spacecraft-found-a-30000-50000-kelvin-wall-at-the-edge-of-our-solar-system-79454">“NASA’s Voyager Spacecraft Found A 30,000-50,000 Kelvin ‘Wall’ At The Edge Of Our Solar System.”</a> My first thought? “Clickbait! This has to be some kind of exaggeration, if not outright fake news.” After all, 50,000 Kelvin is a temperature usually reserved for the heart of stars, not the cold, empty vacuum of space. So, I did what any curious mind with an AI assistant would do: I asked Claude Sonnet 4 to verify it, specifically checking against official NASA press releases, <a href="https://science.nasa.gov/missions/voyager-program/voyagersdiscovers-evidence-of-the-heliopause/">blogs</a> and <a href="https://www.nature.com/articles/s41550-019-0929-2">scientific papers</a>.</p>
+<p>To my astonishment, Claude confirmed the article’s core claims with high credibility, citing reputable sources like NASA.gov, JPL.nasa.gov, and even peer-reviewed publications. The Voyager spacecraft, or the robotic pioneers launched way back in 1977, did indeed measure extremely high temperatures—ranging from 30,000 to 50,000 Kelvin (that’s 54,000-90,000°F!) at the heliopause, the very edge of our solar system’s protective bubble.</p>
+<p>So, what exactly is this “wall of fire” and how did we stumble upon it? Our Sun is blowing out a stream of charged particles, called the solar wind. This wind creates a giant, invisible bubble around our entire solar system, known as the heliosphere, extending about 120 times farther than Earth is from the Sun (that’s 11.2 billion miles!). Everything we know, from Earth to Pluto, resides inside this bubble. At its distant edge, this solar wind slams into the interstellar medium the thin gas and dust between stars. This cosmic collision forms a boundary zone, the heliopause, which the Voyager spacecraft have now successfully crossed.</p>
+<hr>
+<section id="how-far-is-the-wall-of-fire-from-the-sun" class="level2">
+<h2 class="anchored" data-anchor-id="how-far-is-the-wall-of-fire-from-the-sun">How Far is the “Wall of Fire” from the Sun?</h2>
+<section id="the-numbers" class="level3">
+<h3 class="anchored" data-anchor-id="the-numbers"><strong>The Numbers:</strong></h3>
+<ul>
+<li><strong>Distance</strong>: About <strong>120 AU</strong> from the Sun</li>
+<li><strong>In miles</strong>: <strong>11.2 billion miles</strong></li>
+<li><strong>In kilometers</strong>: <strong>18.0 billion kilometers</strong></li>
+</ul>
+<p><em>(AU = Astronomical Unit = distance from Earth to Sun = 93 million miles)</em></p>
+</section>
+<section id="putting-this-in-perspective" class="level3">
+<h3 class="anchored" data-anchor-id="putting-this-in-perspective"><strong>Putting This in Perspective:</strong></h3>
+<p><strong>Compared to familiar distances:</strong></p>
+<ul>
+<li>Earth to Sun: 1 AU</li>
+<li>Sun to Pluto: ~40 AU</li>
+<li><strong>Sun to Heliopause: ~120 AU</strong></li>
+</ul>
+<p>So this “wall of fire” is:</p>
+<ul>
+<li><strong>120 times farther</strong> than Earth is from the Sun</li>
+<li><strong>3 times farther</strong> than Pluto!</li>
+</ul>
+<hr>
+<p>The “fire” isn’t literal, of course; there’s no oxygen for combustion in space. Instead, the astonishing temperature refers to the <em>kinetic energy</em> of the extremely sparse particles at this boundary. Voyager 2’s <a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/Voyager/pls.html">Plasma Science Experiment (PLS)</a>, which is one of its experiment module, measured the speed and energy of individual particles. The faster these particles jiggle and move, the higher their inferred temperature. While each particle is incredibly energetic, space at this frontier is so empty that there aren’t enough of them to transfer significant heat to the spacecraft itself. It’s like being pelted by a handful of super-hot grains of sand – individually scorching, but collectively not enough to burn you.</p>
+<p>What truly fascinates me about this discovery, beyond the sheer scale of the numbers, is how it highlights the nuances and challenges of the scientific process. When I first read the <a href="https://www.iflscience.com/nasas-voyager-spacecraft-found-a-30000-50000-kelvin-wall-at-the-edge-of-our-solar-system-79454">blog</a>, my immediate thought was, “Voyager is just a tiny speck, a single point of measurement. How can scientists possibly extrapolate that the entire 240 AU-wide heliopause has this uniform temperature?” This is the question that gets to the heart of scientific validity. Yes - it is a significant limitation.</p>
+<p>Scientists do acknowledge this. We currently have direct measurements from only two points - where Voyager 1 and Voyager 2 crossed the heliopause, separated by about 2.6 AU, which is still a tiny fraction of the boundary’s vastness. Drawing conclusions about the entire heliopause from these two data points is akin to taking the temperature in Montauk, New York City, and declaring it’s the uniform temperature of the entire Earth. So, how do they justify it? They rely on theoretical models, the agreement between the two Voyager measurements, and indirect observations from other missions (like IBEX - Interstellar Boundary Explore - a space observatory designed to study the far reaches of our solar system from orbit focused on mapping the edge of our solar system). However, they also admit that their initial models predicted a temperature nearly <em>half</em> of what Voyager actually measured (15,000-30,000K vs.&nbsp;30,000-50,000K), indicating that our understanding of this boundary is still evolving.</p>
+<p>The higher-than-predicted temperature suggests that processes like compression heating and complex magnetic field interactions at this boundary are more significant than previously thought. The honest scientific position is that while we’ve measured these temperatures at two specific points, and they align with revised theoretical explanations, we don’t <em>truly</em> know if this temperature is uniform across the entire heliopause, or if it varies significantly in other regions or over time due to solar activity. Sending more probes in different directions would be ideal, but the practical realities of time (40+ years to reach the heliopause), cost (billions of dollars per mission), and engineering challenges make comprehensive mapping incredibly difficult.</p>
+<p>Ultimately, the Voyager missions represent an unparalleled achievement in human exploration. They are our first and so far, only—ambassadors beyond our solar system’s protective bubble. While the “wall of fire” might be a dramatic nickname, the underlying scientific discovery is genuinely astounding: our solar system is not simply fading into empty space but is encased in a dynamic, incredibly energetic boundary. This journey of discovery, fueled by decades-old technology, continues to push the boundaries of our knowledge, reminding us that the universe always holds surprises, and the scientific process is a continuous dance between observation, prediction, and revision.</p>
+<p><img src="rosaak.github.io/posts/2025-06-12/images/20250611_115602.jpg" class="img-fluid" alt="The Sounds of Earth"> P.S :</p>
+<p>During my visit to DC, I went into an exposition - <a href="https://www.loc.gov/item/event-414891/collecting-memories-treasures-from-the-library-of-congress/2025-06-13">“Collecting Memories: Treasures from the Library of Congress”</a> held at the Library of Congress, I captured an image of the Voyager Golden Record - above. The record <a href="https://en.wikipedia.org/wiki/Contents_of_the_Voyager_Golden_Record">The Sound of Eath</a>, is on both the Voyagers. This replica is sourced from the library’s archives.</p>
+<p>This is fascinating. I am goint to read more about the <a href="https://atmos.nmsu.edu/data_and_services/atmospheres_data/Voyager/voyager.html">Voyager missions</a></p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>space</category>
+  <category>astrology</category>
+  <category>heliopause</category>
+  <category>scientific-process</category>
+  <category>NASA</category>
+  <guid>rosaak.github.io/posts/2025-06-12/</guid>
+  <pubDate>Thu, 12 Jun 2025 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Relearning vim selection keybindings</title>
+  <dc:creator>RP </dc:creator>
+  <link>rosaak.github.io/posts/2025-03-15/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>General pattern is <code>v</code>, <code>i</code> for inner, <code>a</code> for around or including white space, <code>w</code> for word, <code>s</code> for sentence, and p` for paragraph.</p>
+<section id="select-a-word" class="level2">
+<h2 class="anchored" data-anchor-id="select-a-word">Select a Word</h2>
+<ul>
+<li><code>viw</code> : select inner word (cursor anywhere in word)</li>
+<li><code>vaw</code> : select a word (includes trailing whitespace)</li>
+<li><code>*</code> then <code>gn</code> : search for current word, then select it</li>
+<li>after selecting a word with <code>viw</code>
+<ul>
+<li>use <code>Shift-U</code> for upper case</li>
+</ul></li>
+</ul>
+</section>
+<section id="select-a-sentence" class="level2">
+<h2 class="anchored" data-anchor-id="select-a-sentence">Select a Sentence</h2>
+<ul>
+<li><code>vis</code> : select inner sentence</li>
+<li><code>vas</code> : select around sentence (includes trailing whitespace)</li>
+</ul>
+</section>
+<section id="select-a-paragraph" class="level2">
+<h2 class="anchored" data-anchor-id="select-a-paragraph">Select a Paragraph</h2>
+<ul>
+<li><code>vip</code>: select inner paragraph</li>
+<li><code>vap</code>: select around paragraph (includes trailing whitespace)</li>
+</ul>
+</section>
+<section id="select-multiple-paragraphs" class="level2">
+<h2 class="anchored" data-anchor-id="select-multiple-paragraphs">Select Multiple Paragraphs</h2>
+<ul>
+<li><code>vip</code> then <code>}</code> : select paragraph, then expand to next paragraph. keep repeating to select more or use ‘{’ for de-selecting.</li>
+<li>Tip💁 Visual mode (v) then move with j or k to extend selection</li>
+</ul>
+</section>
+<section id="select-contents-within-bracesbracketsquotes-etc" class="level2">
+<h2 class="anchored" data-anchor-id="select-contents-within-bracesbracketsquotes-etc">Select Contents Within Braces/Brackets/Quotes etc</h2>
+<ul>
+<li><p><code>vi{</code> : select inner curly braces (text between { and })</p></li>
+<li><p><code>va{</code> : select around curly braces (includes the braces)</p></li>
+<li><p><code>vi[</code> : select inner square brackets</p></li>
+<li><p><code>vi(</code> : select inner parentheses</p></li>
+<li><p><code>vi"</code> : select inner double quotes</p></li>
+<li><p><code>vi'</code> : select inner single quotes</p></li>
+<li><p><code>vi&lt;</code> : select inner angle brackets</p></li>
+<li><p><code>vi&lt;</code> : select inner ‘=’, I used for Obsidian highlights</p></li>
+<li><p>Tip💁 : Replace v with c in any command to change (delete and enter insert mode) instead of just selecting.</p></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>vim</category>
+  <category>markdown</category>
+  <category>obsidian</category>
+  <guid>rosaak.github.io/posts/2025-03-15/</guid>
+  <pubDate>Sat, 15 Mar 2025 04:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

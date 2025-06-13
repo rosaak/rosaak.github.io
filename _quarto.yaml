@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - resume.pdf
+    - cv.pdf
+
+website:
+  title: "Roshan Padmanabhan"
+  site-url: rosaak.github.io
+  description: "Personal Blog"
+  open-graph:
+    locale: en_US
+  twitter-card:
+    creator: "@roshan_818"
+  comments:
+    utterances:
+      repo: rosaak.github.io
+  navbar:
+    right:
+      - text: "Home"
+        href: index.html
+      - text: "Blog - Omics Tensor"
+        href: blog.html
+      - text: "Papers"
+        href: papers
+      - text: "Quotes"
+        href: quotes
+  page-footer:
+    left: "© Copyright 2025 Roshan Padmanabhan"
+    right: "Except where otherwise noted, all text and images licensed CC-BY-NC 4.0."
+format:
+  html:
+    theme:
+      dark: mocha.scss
+      light: sandstone
+      #, sandstone, _variables.scss, cosmos
+    css: styles.css
