@@ -29,11 +29,11 @@ comments: false
 
 ## Bio
 
-I’m a senior scientist, working at [Trailhead Biosystems Inc.](https://trailbio.com) In my current role as the director of informatics, I sphearhead THB's the bioinformatics wing where we work on implementing cutting edge transcriptomics technologies, quality control of our products, next generation sequencing pipelines and workflows. 
+I am a Senior Scientist, working at [Trailhead Biosystems Inc.](https://trailbio.com) In my current role as the Director of Informatics, I spearhead THB's bioinformatics wing where we work on implementing cutting edge transcriptomic technologies, quality control of our products, next generation sequencing pipelines and workflows. 
 
-I am passionate about AI and ML and its applications and use in biology and medicine.
+I am passionate about AI and ML and their applications and uses in biology and medicine.
 
-I previously worked as a bioinformatics scientist [at Dr. Mukesh Jain's lab](https://biomedical.brown.edu/people/mukesh-k-jain-md), bioinformatics postdoc fellow [at Dr. Charis Eng's lab](https://www.lerner.ccf.org/genomic-medicine/eng/#lab-investigator), bioinformatics engineer [at Remy Burcelin's lab](https://www.i2mc.inserm.fr/personne/remy-burcelin/).
+I previously worked as a Bioinformatics Scientist [at Dr. Mukesh Jain's lab](https://biomedical.brown.edu/people/mukesh-k-jain-md), Bioinformatics Postdoc Fellow at Dr. Charis Eng's lab, Bioinformatics Engineer [at Remy Burcelin's lab](https://www.i2mc.inserm.fr/personne/remy-burcelin/).
 
 ---
 
